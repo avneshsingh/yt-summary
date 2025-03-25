@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: flask-yt-summary
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    plan: free
